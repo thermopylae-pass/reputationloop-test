@@ -87,7 +87,7 @@
 	<?php for ( $page=1; $page<=$total_no_of_pages; $page++ ) { 
 		$offset = $page - 1;
 		$offset = ($offset * 10) + 1;
-		$_currentUrl = '/reputationloop-test/index.php?rt=review/index/?load=1&offset='.$offset.'&page='.$page;
+		$_currentUrl = '/index.php?rt=review/index/?load=1&offset='.$offset.'&page='.$page;
 		?>
 		<th><a class="page_no" id="<?=$page;?>" href="<?=$_currentUrl;?>">[<?=$page;?>]</a></th>
 	<?php } ?>
